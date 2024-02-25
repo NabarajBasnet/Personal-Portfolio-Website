@@ -212,6 +212,7 @@
         margin-top: 20px;
     }
     .details ul{
+        margin-right: 35px;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -224,7 +225,7 @@
         align-items: center;
     }
     .des-about-me h1{
-        width: 400px;
+        width: 300px;
         margin-top: 20px;
     }
     .homeabout-2{
@@ -233,10 +234,10 @@
         align-items: center;
     }
     .myimg img{
-        width: 350px;
+        width: 300px;
     }
     .des-about-me h1{
-        width: 350px;
+        width: 300px;
     }
     .homeabout-2 p{
         margin-top: 30px;
