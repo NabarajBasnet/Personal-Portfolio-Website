@@ -1,0 +1,246 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.home-container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-around;
+}
+.details ul{
+    list-style: none;
+}
+.details ul li p{
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 100px;
+}
+.details ul li h1{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: blueviolet;
+    font-style: italic;
+}
+
+.details ul li h5{
+    color: darkgray;
+    font-size: large;
+    margin-bottom: 100px;
+}
+.home-contact-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.home-contact-detail li{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+.home-contact-detail li img{
+    margin-right: 5px;
+}
+
+.home-contact-detail li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
+
+/*  */
+
+.home-container-2{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.des-about-me h1{
+    text-align: center;
+    width: 650px;
+}
+
+
+/*  */
+
+
+.home-container-2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.home-container-2 button{
+    border: none;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.homeabout-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.homeabout-1{
+    width: 300px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.homeabout-2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    width: 400px;
+    margin: 5px;
+}
+.hmabt-2-1{
+    color: rgb(97, 97, 97);
+}
+
+/* Extra style */
+.aboutme-small-title p{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive for tablet */
+
+
+@media screen and (max-width: 800px){
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .home-container-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .details ul p{
+        margin-top: 20px;
+    }
+    .details ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .home-container-2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .des-about-me h1{
+        width: 400px;
+        margin-top: 20px;
+    }
+    .homeabout-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* Responsive for mobile */
+
+
+
+@media screen and (max-width: 480px){
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .home-container-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .details ul p{
+        margin-top: 20px;
+    }
+    .details ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .home-container-2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .des-about-me h1{
+        width: 400px;
+        margin-top: 20px;
+    }
+    .homeabout-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myimg img{
+        width: 350px;
+    }
+    .des-about-me h1{
+        width: 350px;
+    }
+    .homeabout-2 p{
+        margin-top: 30px;
+        width: 300px;
+    }
+}
+
